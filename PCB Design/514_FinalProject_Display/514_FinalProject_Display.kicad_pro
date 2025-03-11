@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -171,7 +177,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -198,7 +206,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -431,7 +444,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "514_FinalProject.kicad_pro",
+    "filename": "514_FinalProject_Display.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -466,10 +479,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "/Users/zixuanwang/Desktop/AdeleWang-SensorDevce/",
+      "plot": "/Users/zixuanwang/Desktop/AdeleWang-DisplayDevice/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../514_FinalProject_sensor.step",
+      "step": "514_FinalProject_Display.step",
       "svg": "",
       "vrml": ""
     },
@@ -576,7 +589,7 @@
   },
   "sheets": [
     [
-      "891952cf-c7bc-48e6-9dce-04d70f9682c6",
+      "b69d66d5-714c-4d3f-a6d5-fc484ddf4aa1",
       "Root"
     ]
   ],
